@@ -2,7 +2,7 @@ project_name: "kitchensink"
 
 application: kitchensink {
   label: "Kitchen sink - Jversion"
-  url: "bundle.js"
+  url: "/bundle.js"
   entitlements: {
     local_storage: yes
     navigation: yes
