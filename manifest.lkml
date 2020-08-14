@@ -7,6 +7,8 @@ application: kitchensink {
     local_storage: yes
     navigation: yes
     new_window: yes
-    core_api_methods: ["all_connections","search_folders", "run_inline_query", "me"]
+    allow_forms: yes
+    allow_same_origin: yes
+    core_api_methods: ["all_connections","search_folders", "run_inline_query", "me", "all_looks", "run_look"]
   }
 }
